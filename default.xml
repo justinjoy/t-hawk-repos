@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default sync-j="4" revision="hardknott"/>
+
+  <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <remote fetch="https://git.openembedded.org/bitbake" name="bitbake"/>
+  <remote fetch="https://github.com/openembedded"  name="oe"/>
+
+  <project remote="yocto"   revision="fd33741e279702d8498fce47450cb1ea275e5e6b" upstream="hardknott" name="poky" path="sources/poky"/>
+  <project remote="yocto"   revision="c6b1eec0e5e94b02160ce0ac3aa9582cbbf7b0ed" upstream="hardknott" name="meta-security" path="sources/meta-security"/>
+
+  <project remote="yocto"   revision="12af38f31bc545e6aa134e9dacf4f3e4c9910b8d" upstream="hardknott" name="meta-arm" path="sources/meta-arm"/>
+  <project remote="yocto"   revision="9088965c3a088f8259015ff4fc7fc63b77a322f0" upstream="hardknott" name="meta-rockchip" path="sources/meta-rockchip"/>
+
+  <project remote="oe"      revision="6d69f7453f78dcb19f472dcea183e859648c5243" upstream="hardknott" name="openembedded-core" path="sources/openembedded-core"/>
+  <project remote="oe"      revision="cf5bd6a8308108b4313a1e45ce8aa87e73125bf9" upstream="hardknott" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="oe"      revision="0c83e98b0b4129e43e05129074fff60b22a9f2eb" upstream="1.50" name="bitbake" path="sources/bitbake"/>
+
+</manifest>
